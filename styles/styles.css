@@ -1,0 +1,88 @@
+/* criando styles  para index.html*/
+
+#menu li{
+    color:black;
+    display:inline-flex;
+    padding:10px;     
+    margin: 5px;
+    background-color:#f8a5c2
+    
+}
+
+#menu li a {
+    text-decoration:none;
+    color:black;
+    font-size: 25px;
+     
+}
+
+#menu li a:hover{
+    color: cornflowerblue;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: #f8a5c2;
+}
+
+.background-pink{
+    background-image: url(../img/Wallpaper-Animal-Crossing-Animal-Crossing-New-Leaf-Patte22048x1152.jpg);
+    background-size: contain;
+}
+
+.background-title{
+    background-color: #f8a5c2;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    align-items: center;
+}
+
+.p-30{
+    padding: 50px;
+    display:flex;
+}
+
+.center{
+    text-align: center;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.tam-social{
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+}
+
+.container01{
+    color:blueviolet;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: rgb(231, 119, 225);
+}
+
+/* criando styles  para contato.html*/
+
+
+/* criando styles  para galeria.html*/
+
+.ph-aligne{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.ph-size{
+    height:300px;
+    width: 300px;
+    display: inline-flex;
+    padding: 5px;
+    
+}
