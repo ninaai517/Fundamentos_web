@@ -1,25 +1,25 @@
 /* criando styles  para index.html*/
 
+/*Estilizacao do Menu Principal*/
 #menu li{
     color:black;
     display:inline-flex;
     padding:10px;     
     margin: 5px;
     background-color:#f8a5c2
-    
 }
 
 #menu li a {
     text-decoration:none;
     color:black;
-    font-size: 25px;
-     
+    font-size: 25px;  
 }
 
 #menu li a:hover{
     color: cornflowerblue;
 }
 
+/*Estilizacao do corpo do texto*/
 h1{
     text-align: center;
     font-size: 50px;
