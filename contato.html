@@ -12,11 +12,11 @@
 <body class="background-pink">
 
     <!--Menu-->
-    <u id="menu">
+    <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="contato.html">Contato</a></li>
         <li><a href="galeria.html">Galeria</a></li>
-    </u>
+    </ul>
 
     <header><h1>Deixe uma mensagem:</h1> </header>
     
@@ -24,30 +24,31 @@
         <h2>Para saber mais sobre o meu trabalho:</h2>
 
         <h2>Contato:</h2>
+        <div>
+            <form onsubmit="enviar()">
 
-        <form>
+                <br>
+                <label for="Nome:">Nome:</label>
+                <br>
+                <input type="text" id="nome" onkeyup="validaNome()"> 
+                <div id="txtNome"></div>
+                <br>
+                <label for="Email">Email:</label> 
+                <br>
+                <input type="text" id="email"> 
+                <br><br>
 
-            <br>
-            <label for="Nome:">Nome:</label>
-            <br>
-            <input type="text" id="nome"> 
-            <br><br>
-            <label for="Email">Email:</label> 
-            <br>
-            <input type="text" id="email"> 
-            <br><br>
-            
-        </form>
-
-        <h3>Escreva sua mensagem:</h3>
-        <form>
-            <label for="Mensagem:">Mensagem:</label>
-            <br><br>
-            <textarea name="Mensagem" id="mensagem" cols="60" rows="5"></textarea>
-            <br><br>
-            <button>Enviar</button>
-        </form>
+                <h3>Escreva sua mensagem:</h3>
+                <label for="Mensagem:">Mensagem:</label>
+                <br><br>
+                <textarea name="Mensagem" id="mensagem" cols="60" rows="5"></textarea>
+                <br><br>
+                <button>Enviar</button>
+                
+            </form>
+        </div>
     </div>
+
     <hr>
     <footer>
         <div class="container">
@@ -62,5 +63,8 @@
         Todos os direitos reservados: Carolina Aizawa Moreira &copy;
         </p>
     </footer>
-</body>
+
+   <script src="scripts/script.js"></script>
+
+</body>    
 </html>
